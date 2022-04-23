@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* custom */
+button.navbar-toggler:focus {
+  box-shadow: none;
+}
+button[type="button"],
+button[type="submit"],
+button[class^="btn"]:focus {
+  box-shadow: none;
+}
+button[class*="btn-outline"]:active:focus {
+  box-shadow: none;
+}
+
+/* styles ui */
+.main {
+  height: 100vh;
+}
+nav.navbar {
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #8f94fb,
+    #4e54c8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.row 

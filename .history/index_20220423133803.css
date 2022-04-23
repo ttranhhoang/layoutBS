@@ -1,0 +1,4 @@
+*, *::after
+nav.navbar {
+  background-color: red;
+}

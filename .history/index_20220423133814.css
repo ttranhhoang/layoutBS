@@ -1,0 +1,6 @@
+*, *::after, *::before{
+  box-sizing: ;
+}
+nav.navbar {
+  background-color: red;
+}

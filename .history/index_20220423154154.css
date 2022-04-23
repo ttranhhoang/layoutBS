@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+button.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+nav.navbar {
+  background-color: red;
+}
+.offcanvas-warning {
+  background-color: yellow;
+}
+
+.main

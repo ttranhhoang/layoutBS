@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+out {
+  outline: none;
+}
+nav.navbar {
+  background-color: red;
+}
+.offcanvas-warning {
+  background-color: yellow;
+}

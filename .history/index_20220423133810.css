@@ -1,0 +1,6 @@
+*, *::after, *::before{
+  boe
+}
+nav.navbar {
+  background-color: red;
+}
