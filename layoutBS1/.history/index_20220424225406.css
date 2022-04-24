@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* custom */
+button.navbar-toggler:focus {
+  box-shadow: none;
+}
+button[type="button"],
+button[type="submit"],
+button[class^="btn"]:focus {
+  box-shadow: none;
+}
+button[class*="btn-outline"]:active:focus {
+  box-shadow: none;
+}
+
+/* styles ui */
+body {
+  padding-top: 72px;
+}
+.main {
+  height: 100vh;
+}
+nav.navbar {
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #8f94fb,
+    #4e54c8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+div.row {
+  height: 100px;
+}
+.row .col div.card {
+  padding: 10px;
+}
+.bottom {
+  bottom: -4em;
+}
+.right {
+  right: 1em;
+}
+.main {
+  height: 11
+}
